@@ -44,8 +44,13 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
+<<<<<<< Updated upstream
   defaultScreenWidthWeb: 480
   defaultScreenHeightWeb: 270
+=======
+  defaultScreenWidthWeb: 1920
+  defaultScreenHeightWeb: 1080
+>>>>>>> Stashed changes
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
@@ -78,7 +83,11 @@ PlayerSettings:
   androidFullscreenMode: 1
   androidAutoRotationBehavior: 1
   androidPredictiveBackSupport: 1
+<<<<<<< Updated upstream
   defaultIsNativeResolution: 0
+=======
+  defaultIsNativeResolution: 1
+>>>>>>> Stashed changes
   macRetinaSupport: 1
   runInBackground: 0
   captureSingleScreen: 0
@@ -291,7 +300,11 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
+<<<<<<< Updated upstream
       m_Icon: {fileID: 2800000, guid: 06bd048529a5f78479a50c44f8b15728, type: 3}
+=======
+      m_Icon: {fileID: 2800000, guid: 54782f4c86b74ff45bbe9ec508d3b0d7, type: 3}
+>>>>>>> Stashed changes
       m_Width: 128
       m_Height: 128
       m_Kind: 0

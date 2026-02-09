@@ -7,8 +7,6 @@ public class OponentInstance : FightingInstance
 {
     private OpponentData _oponentData;
     [SerializeField]
-    private SpriteRenderer _spriteRenderer;
-    [SerializeField]
     private TextMeshProUGUI _opponentName;
     [SerializeField]
     private GameObject _attackPreview;
@@ -24,11 +22,9 @@ public class OponentInstance : FightingInstance
     {
         //Debug.Log("coucou");
         _oponentData = oponentData;
-        _spriteRenderer.sprite = _oponentData.sprite;
         if (_oponentData.opponentPrefab != null )
         {
             Instantiate(_oponentData.opponentPrefab, transform);
-            _spriteRenderer.enabled = false;
         }
         _opponentName.text = oponentData.name;  
         Stats.SetHpMax (oponentData.baseHp);

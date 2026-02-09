@@ -221,14 +221,14 @@ PrefabInstance:
     - target: {fileID: 9218675096709218110, guid: a7b0ccee9f3e3a04b8c7db849a4e079d, type: 3}
       propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 29380710}
+      objectReference: {fileID: 29380711}
     - target: {fileID: 9218675096709218110, guid: a7b0ccee9f3e3a04b8c7db849a4e079d, type: 3}
       propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LaunchActionAfterFillingPath
+      value: BattleSceneBoss
       objectReference: {fileID: 0}
     - target: {fileID: 9218675096709218110, guid: a7b0ccee9f3e3a04b8c7db849a4e079d, type: 3}
       propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MapButton, Assembly-CSharp
+      value: ManagerBridge, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -240,17 +240,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2057274070168438732, guid: a7b0ccee9f3e3a04b8c7db849a4e079d, type: 3}
   m_PrefabInstance: {fileID: 29380708}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &29380710 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5804412360398639316, guid: a7b0ccee9f3e3a04b8c7db849a4e079d, type: 3}
-  m_PrefabInstance: {fileID: 29380708}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ca83913da7c51b4aafafd40f778208a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &29380711 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9180337460334163401, guid: a7b0ccee9f3e3a04b8c7db849a4e079d, type: 3}
@@ -901,6 +890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inn2
       objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1148,6 +1141,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BattleButton (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395154621}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BattleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6685532768513978945, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
@@ -1293,6 +1298,10 @@ PrefabInstance:
     - target: {fileID: 4575843045508698627, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Name
       value: 3rdBattle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
@@ -1581,6 +1590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1stshop
       objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1827,6 +1840,18 @@ PrefabInstance:
     - target: {fileID: 1665959711535033006, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
       propertyPath: m_Name
       value: BattleButton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395154621}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BattleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6685532768513978945, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2243,6 +2268,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551744323}
     m_Modifications:
+    - target: {fileID: 2205229015971109922, guid: e93247054afa7a0449e53641b409b763, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1130191110}
+    - target: {fileID: 2205229015971109922, guid: e93247054afa7a0449e53641b409b763, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: InnScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205229015971109922, guid: e93247054afa7a0449e53641b409b763, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3600828540157866952, guid: e93247054afa7a0449e53641b409b763, type: 3}
       propertyPath: _floor
       value: 5
@@ -2325,6 +2362,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9077352420421608656, guid: e93247054afa7a0449e53641b409b763, type: 3}
   m_PrefabInstance: {fileID: 1130191105}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1130191110 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2167005977569515221, guid: e93247054afa7a0449e53641b409b763, type: 3}
+  m_PrefabInstance: {fileID: 1130191105}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c3f9cec6af9dc48959d5bcc4e6e83b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1136601432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2336,6 +2384,10 @@ PrefabInstance:
     - target: {fileID: 4575843045508698627, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Name
       value: 4rdBattle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
@@ -2990,6 +3042,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4044745132170501040, guid: 217d750b19e02f74d8ebdefe35baaceb, type: 3}
   m_PrefabInstance: {fileID: 1392560993}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1395154621 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4552069654527115332, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+  m_PrefabInstance: {fileID: 424231955}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c3f9cec6af9dc48959d5bcc4e6e83b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1399429923 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
@@ -3151,6 +3214,10 @@ PrefabInstance:
     - target: {fileID: 4575843045508698627, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Name
       value: 3rdBattle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
@@ -3400,6 +3467,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551744323}
     m_Modifications:
+    - target: {fileID: 2106885453834396639, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1507302658}
+    - target: {fileID: 2106885453834396639, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShopScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106885453834396639, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3629641032466533429, guid: eb725488953de034da13c1aceb0e0932, type: 3}
       propertyPath: _floor
       value: 5
@@ -3482,6 +3561,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9105890172291521325, guid: eb725488953de034da13c1aceb0e0932, type: 3}
   m_PrefabInstance: {fileID: 1507302653}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1507302658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2140728557465692456, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+  m_PrefabInstance: {fileID: 1507302653}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c3f9cec6af9dc48959d5bcc4e6e83b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1520586580
 GameObject:
   m_ObjectHideFlags: 0
@@ -3662,10 +3752,14 @@ PrefabInstance:
     - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
       propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1920051420}
+      objectReference: {fileID: 1395154621}
     - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
       propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BattleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6685532768513978945, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3725,6 +3819,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551744323}
     m_Modifications:
+    - target: {fileID: 2106885453834396639, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1669487851}
+    - target: {fileID: 2106885453834396639, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShopScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106885453834396639, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3629641032466533429, guid: eb725488953de034da13c1aceb0e0932, type: 3}
       propertyPath: _floor
       value: 2
@@ -3823,6 +3929,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9105890172291521325, guid: eb725488953de034da13c1aceb0e0932, type: 3}
   m_PrefabInstance: {fileID: 1669487846}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1669487851 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2140728557465692456, guid: eb725488953de034da13c1aceb0e0932, type: 3}
+  m_PrefabInstance: {fileID: 1669487846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c3f9cec6af9dc48959d5bcc4e6e83b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1735104572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3834,6 +3951,10 @@ PrefabInstance:
     - target: {fileID: 4575843045508698627, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Name
       value: 1st inn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
@@ -3928,6 +4049,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551744323}
     m_Modifications:
+    - target: {fileID: 2205229015971109922, guid: e93247054afa7a0449e53641b409b763, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1130191110}
+    - target: {fileID: 2205229015971109922, guid: e93247054afa7a0449e53641b409b763, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: InnScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205229015971109922, guid: e93247054afa7a0449e53641b409b763, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3600828540157866952, guid: e93247054afa7a0449e53641b409b763, type: 3}
       propertyPath: _floor
       value: 2
@@ -4674,6 +4807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss1
       objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4949,6 +5086,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BattleButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395154621}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BattleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585930319870741171, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
+      propertyPath: OnClickAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManagerBridge, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6685532768513978945, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -5015,17 +5164,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6685532768513978945, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
   m_PrefabInstance: {fileID: 1920051418}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1920051420 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4552069654527115332, guid: 5d32ce450726a3046b59051c3fea6eaf, type: 3}
-  m_PrefabInstance: {fileID: 1920051418}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02c3f9cec6af9dc48959d5bcc4e6e83b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1994744324 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4728083630315601128, guid: 1fd7d9d52acbc9149825f6e7d77c1b30, type: 3}
@@ -5048,6 +5186,10 @@ PrefabInstance:
     - target: {fileID: 4575843045508698627, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Name
       value: Boss2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
@@ -5161,6 +5303,10 @@ PrefabInstance:
     - target: {fileID: 4575843045508698627, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Name
       value: 2sndShop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980877087898648370, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Pivot.x
@@ -5336,6 +5482,10 @@ PrefabInstance:
     - target: {fileID: 4575843045508698627, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: m_Name
       value: PathLine1StBattle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475212502569629601, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7070190794651132296, guid: 74d91ee0c5c7c7048a3b6285f5209403, type: 3}
       propertyPath: _imageRef

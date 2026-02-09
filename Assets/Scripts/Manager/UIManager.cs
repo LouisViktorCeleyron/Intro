@@ -86,7 +86,7 @@ public class UIManager : Manager
         _gatchaUI.gameObject.SetActive(value);
         if(value)
         {
-            _audioManager.LoadTempMusic("Motus");
+            //_audioManager.LoadTempMusic("Motus");
         }
         else
         {

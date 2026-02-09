@@ -1264,8 +1264,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 594189418}
-  _minColorTreshold: 0.5
-  _maxColorTreshold: 1
+  _minColorTreshold: 0
+  _maxColorTreshold: 0.5
   _speed: 2.5
 --- !u!1001 &681887614
 PrefabInstance:
